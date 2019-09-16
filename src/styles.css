@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+div .active {
+    color: red;
+}
+
+.content {
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.left {
+    width: 200px;
+    border-right: 1px solid black;
+    height: 500px;
+}
+
+.right {
+    flex: 1px;
+}

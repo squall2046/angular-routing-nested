@@ -1,0 +1,14 @@
+<!-- <p>products works!</p> -->
+
+<div class="content">
+
+    <div class="left">
+        <a [routerLink]="[ '/products/category' ]" routerLinkActive="active">Category</a>
+        <br><br>
+        <a [routerLink]="[ '/products/list' ]" routerLinkActive="active">List</a>
+    </div>
+
+    <div class="right">
+        <router-outlet></router-outlet>
+    </div>
+</div>
